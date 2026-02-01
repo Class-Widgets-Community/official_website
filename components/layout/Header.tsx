@@ -29,8 +29,8 @@ const Header = ({ translations }: { translations: Translations }) => {
   const navItems = [
     { href: getLocalizedPath("/"), label: t("navs.home") },
     { href: getLocalizedPath("/download"), label: t("navs.download") },
-    { href: "https://cwdocs.rinlit.cn/about/", label: t("navs.user_docs") },
-    { href: "https://cwdocs.rinlit.cn/dev/", label: t("navs.dev_docs") },
+    { href: "https://docs.cwce.hpdnya.com/about/", label: t("navs.user_docs") },
+    { href: "https://docs.cwce.hpdnya.com/dev/", label: t("navs.dev_docs") },
   ];
 
   useEffect(() => {
