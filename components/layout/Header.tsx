@@ -64,7 +64,7 @@ const Header = ({ translations }: { translations: Translations }) => {
         <a href={getLocalizedPath("/")}>
           <div className="flex items-center space-x-2">
             <img src={logoImage.src} alt="Logo" className="h-8 w-8" />
-            <span className="text-xl font-bold text-gray-100">Class Widgets</span>
+            <span className="text-xl font-bold text-gray-100">Class Widgets Community Edition</span>
           </div>
         </a>
         <div className="hidden md:flex items-center space-x-6">

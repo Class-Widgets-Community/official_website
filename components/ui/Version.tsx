@@ -25,7 +25,7 @@ const Version = ({ latestVer, publishedDate, loading, size, translations, isStab
         <>
           <img
             src={logoImage.src}
-            alt="Class Widgets Logo"
+            alt="Class Widgets Community Edition Logo"
             className="size-12"
           />
           <div className={size === "auto" ? "text-center" : ""}>

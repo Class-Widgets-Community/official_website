@@ -6,7 +6,7 @@ on:
       - main
   workflow_run:
     workflows:
-      - Update Class Widgets 2 Releases JSON
+      - Update Class Widgets Community Edition 2 Releases JSON
     types:
       - completed
       

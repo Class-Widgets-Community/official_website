@@ -104,7 +104,7 @@ const Download = ({ translations }: { translations: Translations }) => {
   useEffect(() => {
     const fetchReleases = async () => {
       try {
-        const response = await fetch('https://ghfile.geekertao.top/https://api.github.com/repos/Class-Widgets/Class-Widgets/releases');
+        const response = await fetch('https://ghfile.geekertao.top/https://api.github.com/repos/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -157,13 +157,13 @@ const Download = ({ translations }: { translations: Translations }) => {
               name: currentVer,
               type: "Apple Silicon",
               url: getDownloadUrl(prereleaseAssets.find(asset => parseAssetName(asset.name, 'Macos', 'arm64'))?.browser_download_url ||
-                `https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-macOS-arm64.zip`)
+                `https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-macOS-arm64.zip`)
             },
             {
               name: currentVer,
               type: "Intel",
               url: getDownloadUrl(prereleaseAssets.find(asset => parseAssetName(asset.name, 'Macos', 'x64'))?.browser_download_url ||
-                `https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-macOS-x64.zip`)
+                `https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-macOS-x64.zip`)
             }
           ]
         },
@@ -175,13 +175,13 @@ const Download = ({ translations }: { translations: Translations }) => {
               name: currentVer,
               type: "x64",
               url: getDownloadUrl(prereleaseAssets.find(asset => parseAssetName(asset.name, 'Windows', 'x64'))?.browser_download_url ||
-                `https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-Windows-x64.zip`)
+                `https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-Windows-x64.zip`)
             },
             {
               name: currentVer,
               type: "x86",
               url: getDownloadUrl(prereleaseAssets.find(asset => parseAssetName(asset.name, 'Windows', 'x86'))?.browser_download_url ||
-                `https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-Windows-x86.zip`)
+                `https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-Windows-x86.zip`)
             }
           ]
         },
@@ -193,7 +193,7 @@ const Download = ({ translations }: { translations: Translations }) => {
               name: currentVer,
               type: "Debian",
               url: getDownloadUrl(prereleaseAssets.find(asset => parseAssetName(asset.name, 'Linux', 'x64'))?.browser_download_url ||
-                `https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-Linux-x64.zip`)
+                `https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-Linux-x64.zip`)
             }
           ]
         }
@@ -207,12 +207,12 @@ const Download = ({ translations }: { translations: Translations }) => {
           {
             name: currentVer,
             type: "Apple Silicon",
-            url: getDownloadUrl(`https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-macOS-arm64.zip`)
+            url: getDownloadUrl(`https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-macOS-arm64.zip`)
           },
           {
             name: currentVer,
             type: "Intel",
-            url: getDownloadUrl(`https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-macOS-x64.zip`)
+            url: getDownloadUrl(`https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-macOS-x64.zip`)
           }
         ]
       },
@@ -223,12 +223,12 @@ const Download = ({ translations }: { translations: Translations }) => {
           {
             name: currentVer,
             type: "x64",
-            url: getDownloadUrl(`https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-Windows-x64.zip`)
+            url: getDownloadUrl(`https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-Windows-x64.zip`)
           },
           {
             name: currentVer,
             type: "x86",
-            url: getDownloadUrl(`https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-Windows-x86.zip`)
+            url: getDownloadUrl(`https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-Windows-x86.zip`)
           }
         ]
       },
@@ -239,7 +239,7 @@ const Download = ({ translations }: { translations: Translations }) => {
           {
             name: currentVer,
             type: "Debian",
-            url: getDownloadUrl(`https://github.com/Class-Widgets/Class-Widgets/releases/download/${currentVer}/ClassWidgets-Linux-x64.zip`)
+            url: getDownloadUrl(`https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/releases/download/${currentVer}/ClassWidgets-Linux-x64.zip`)
           }
         ]
       }
@@ -298,7 +298,7 @@ const Download = ({ translations }: { translations: Translations }) => {
                 <>
                   <img
                     src={logoImage.src}
-                    alt="Class Widgets Logo"
+                    alt="Class Widgets Community Edition Logo"
                     className="size-12"
                   />
                   <div>
@@ -330,7 +330,7 @@ const Download = ({ translations }: { translations: Translations }) => {
                 <>
                   <img
                     src={logoImage.src}
-                    alt="Class Widgets Logo"
+                    alt="Class Widgets Community Edition Logo"
                     className="size-12"
                   />
                   <div>
@@ -465,7 +465,7 @@ const Download = ({ translations }: { translations: Translations }) => {
               <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-6 shadow-2xl border border-white/10">
                 <img
                   src={logoImage.src}
-                  alt="Class Widgets"
+                  alt="Class Widgets Community Edition"
                   className="size-32 rounded-2xl"
                 />
               </div>

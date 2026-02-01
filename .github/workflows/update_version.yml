@@ -22,7 +22,7 @@ jobs:
         id: fetch_versions
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: "Class-Widgets/Class-Widgets"
+          REPO: "Class-Widgets-Community/Class-Widgets-1-Community-Edition"
         run: |
           VERSION_RELEASE=$(gh release list --repo "${{ env.REPO }}" --json tagName,isPrerelease --jq '[.[] | select(.isPrerelease == false)][0].tagName // empty')
           if [ -z "$VERSION_RELEASE" ] || [ "$VERSION_RELEASE" = "null" ]; then

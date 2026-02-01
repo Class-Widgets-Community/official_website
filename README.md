@@ -1,6 +1,6 @@
 ![截屏](readme_image.jpeg)
 
-# Class Widgets Offcial Website
+# Class Widgets Community Edition Offcial Website
 
 ## 🧞 命令
 

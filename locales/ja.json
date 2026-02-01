@@ -24,12 +24,12 @@
   "personalization": {
     "tag": "# パーソナライゼーション",
     "title": "プラグイン & テーマ\n究極のカスタマイズ",
-    "content": "Class Widgetsには、Pythonベースのプラグインシステムとプラグインストアが搭載されています。プラグインストアから必要なプラグインをインストールできます。さらに、個性を発揮できるテーマシステムにより、唯一無二のClass Widgetsを構築できます。"
+    "content": "Class Widgets Community Editionには、Pythonベースのプラグインシステムとプラグインストアが搭載されています。プラグインストアから必要なプラグインをインストールできます。さらに、個性を発揮できるテーマシステムにより、唯一無二のClass Widgets Community Editionを構築できます。"
   },
   "compatibility": {
     "tag": "# マルチプラットフォームサポート",
     "title": "ほぼ完璧な\n互換性",
-    "content": "Class WidgetsはPyQtに基づいて構築されており、Windows、macOS、Linuxの3大主流オペレーティングシステムをサポートしています。"
+    "content": "Class Widgets Community EditionはPyQtに基づいて構築されており、Windows、macOS、Linuxの3大主流オペレーティングシステムをサポートしています。"
   },
   "misc": {
     "notification": {
@@ -40,18 +40,18 @@
     "floating": {
       "tag": "フローティングウィンドウ",
       "title": "全く新しい隠し方",
-      "content": "全く新しい隠し方「フローティングウィンドウ」により、Class Widgetsの重要な情報を小さな浮動ウィンドウに凝縮でき、より軽量で使いやすくなり、教学活動への干渉を最小限に抑えます。"
+      "content": "全く新しい隠し方「フローティングウィンドウ」により、Class Widgets Community Editionの重要な情報を小さな浮動ウィンドウに凝縮でき、より軽量で使いやすくなり、教学活動への干渉を最小限に抑えます。"
     },
     "design": {
       "tag": "デザイン",
       "title": "究極のデザイン言語",
-      "content": "Class Widgetsはマイクロソフトが提供するFluent Designデザイン言語を採用し、QFluentWidgets UIライブラリを使用しているため、インターフェースがよりシンプルで快適、そしてスムーズになっています。"
+      "content": "Class Widgets Community Editionはマイクロソフトが提供するFluent Designデザイン言語を採用し、QFluentWidgets UIライブラリを使用しているため、インターフェースがよりシンプルで快適、そしてスムーズになっています。"
     }
   },
   "download": {
     "page_title": "ダウンロード",
-    "title": "Class Widgetsをダウンロード",
-    "description": "Class Widgetsアプリケーションをダウンロードして、ご自身のデバイスで使用してください。Windows、macOS、Linuxに対応したバージョンを提供しており、どのプラットフォームでも本ソフトウェアを楽しめるようにしています。<br><br>本ソフトウェアの新機能を使用または体験したい場合は、プロジェクトのGithubリポジトリの <a href=\"https://github.com/Class-Widgets/Class-Widgets/actions\" style=\"color: #007bff;\">Actions</a> ページにアクセスして、最新のビルドをダウンロードしてください。<br><br>圧縮ファイルがダウンロードされますので、適切な場所に解凍した後、「ClassWidgets.exe」を開いてください。トレイメニューから設定に入ったり、プログラムを終了したりすることができます。",
+    "title": "Class Widgets Community Editionをダウンロード",
+    "description": "Class Widgets Community Editionアプリケーションをダウンロードして、ご自身のデバイスで使用してください。Windows、macOS、Linuxに対応したバージョンを提供しており、どのプラットフォームでも本ソフトウェアを楽しめるようにしています。<br><br>本ソフトウェアの新機能を使用または体験したい場合は、プロジェクトのGithubリポジトリの <a href=\"https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/actions\" style=\"color: #007bff;\">Actions</a> ページにアクセスして、最新のビルドをダウンロードしてください。<br><br>圧縮ファイルがダウンロードされますので、適切な場所に解凍した後、「ClassWidgets.exe」を開いてください。トレイメニューから設定に入ったり、プログラムを終了したりすることができます。",
     "use_proxy": "プロキシを使用してダウンロード (直接ダウンロード速度が遅い場合は、こちらをチェックしてください)",
     "loading": "最新バージョン情報を取得中...",
     "download_button": "ダウンロード",
@@ -68,7 +68,7 @@
       "description": "現在はDebianのみをサポートしています。その他のバージョンは近日公開予定です"
     },
     "footer": {
-      "help": "ヘルプが必要ですか？当社の <a href=\"https://github.com/Class-Widgets/Class-Widgets\" style=\"color: #007bff;\">Github</a> をご覧になるか、<a href=\"https://github.com/orgs/Class-Widgets/discussions\" style=\"color: #007bff;\">コミュニティ</a> に参加してください",
+      "help": "ヘルプが必要ですか？当社の <a href=\"https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition\" style=\"color: #007bff;\">Github</a> をご覧になるか、<a href=\"https://github.com/orgs/Class-Widgets-Community/discussions\" style=\"color: #007bff;\">コミュニティ</a> に参加してください",
       "security": "すべてのダウンロードはセキュリティ検証を通過しています"
     }
   },
@@ -84,6 +84,6 @@
   "acknowledgements": {
     "special_thanks_title": "特別謝辞",
     "thanks_contributors": "すべての貢献者に感謝します",
-    "view_all_on_github": "<a href=\"https://github.com/Class-Widgets/Class-Widgets/graphs/contributors\" target=\"_blank\" style=\"color: #007bff;\">GitHub</a> ですべての貢献者をご覧ください"
+    "view_all_on_github": "<a href=\"https://github.com/Class-Widgets-Community/Class-Widgets-1-Community-Edition/graphs/contributors\" target=\"_blank\" style=\"color: #007bff;\">GitHub</a> ですべての貢献者をご覧ください"
   }
 }
